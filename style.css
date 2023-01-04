@@ -187,6 +187,7 @@ h2{
 .services-content{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 150px;
 }
 .s-content{
     text-align: left;
