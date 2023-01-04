@@ -54,19 +54,17 @@ body{
     display: flex;
     list-style: none;
 }
-.menu > ul > li{
+.menu > ul > li > a{
     padding:15px 30px;
-    cursor: pointer;
     text-transform: capitalize;
+    text-decoration: none;
 
 }
 .dropdown-one-parent{
-    position:relative;
+    position: relative;
 }
 .dropdown-one{
-    position: absolute;
-    top: 50px;
-    left: 0;
+    position:absolute;
     border-top: 2px solid #ff8b00;
     background:white;
     box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.575);
@@ -77,15 +75,16 @@ body{
     transition: 0.4s;
 }
 .dropdown-one li{
-    color: #ff8b00;
+    transition:all .4s;
     padding: 10px 20px;
 }
-.dropdown-one li{
-    transition: 0.4s;
+.dropdown-one li a{
+    color: #ff8b00;
+    text-decoration: none;
 }
-.dropdown-one>li:hover{
-    transform: translateX(20px);
-    
+
+.dropdown-one li:hover{
+    background-color: #222222;
 }
 .dropdown-one-parent:hover .dropdown-one{
     transform: scaleY(1);
@@ -97,7 +96,7 @@ body{
 .dropdown-two{
     position: absolute;
     top:0px;
-    left: 180px;
+    left: 200px;
     border-top: 2px solid #ff8b00;
     background:white;
     box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.575);
@@ -106,10 +105,6 @@ body{
     transform: scaleX(0);
     transform-origin:left ;
     transition: 0.4s;
-}
-.dropdown-two>li:hover{
-    transform: translateX(20px);
-    
 }
 
 .dropdown-two-parent:hover .dropdown-two{
@@ -181,4 +176,45 @@ body{
     line-height: 28px;
     color: #939393;
     margin-bottom: 16px;
+}
+.services-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.s-content{
+    text-align: left;
+    height: 223px;
+    width: 380px;
+    padding: 0 15px;
+    min-height: auto;
+    margin-top: 50px;
+}
+.icon span{
+    font-size: 60px;
+    color: #FF8B00;
+    position: relative;
+    z-index: 1;
+}
+.icon span::after{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(30deg,  #94949485,  #353434, transparent);
+    border-radius: 50%;
+    top: -25px;
+    left: -20px;
+    z-index: -1;
+}
+.icon{
+    margin-bottom: 16px;
+}
+.skate-text h2{
+    font-size: 22px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    line-height: 27px;
+}
+.skate-text p{
+    color: #939393;
 }
