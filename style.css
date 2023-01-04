@@ -171,6 +171,13 @@ body{
     line-height: 57px;
     margin-bottom: 8px;
 }
+h2{
+    color: #FF8B00;
+    font-size: 48px;
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    line-height: 57px;
+}
 .services-header p{
     font-size: 16px;
     line-height: 28px;
@@ -190,7 +197,7 @@ body{
     margin-top: 50px;
 }
 .icon span{
-    font-size: 60px;
+    font-size: 40px;
     color: #FF8B00;
     position: relative;
     z-index: 1;
@@ -218,3 +225,71 @@ body{
 .skate-text p{
     color: #939393;
 }
+.best-performance{
+    height: 622px;
+    width: 462px;
+    padding: 48px;
+    margin-left: auto;
+    position: relative;
+}
+.best-performance::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -622px;
+    background-image: url('img1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 626px;
+    width: 557px;
+}
+.best-performance h2,
+.best-mentor h2{
+    margin-bottom: 16px;
+    font-size: 32px;
+}
+.best-performance p,
+.best-mentor p{
+    line-height: 27px;
+    margin-bottom: 16px;
+}
+.best-mentor{
+    height: 622px;
+    width: 462px;
+    padding: 48px;
+    margin-right: auto;
+    position: relative;
+}
+.best-mentor::after{
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 615px;
+    background-image: url('img2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 626px;
+    width: 557px;
+}
+.best-performance-ul{
+    list-style: none;
+    margin: 48px 0 50px 0;
+    
+}
+.best-performance-ul li{
+    color: #939393;
+    padding: 5px 0;
+}
+.best-performance-ul li::before{
+    content: "\2713";
+    font-size: 24px;
+    color: #FF8B00;
+    margin-right: 20px;
+}
+
+p{
+    color: #939393;
+}
+/* list-style-type: symbols(&#x2713); */
