@@ -187,7 +187,7 @@ h2{
 .services-content{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
 }
 .s-content{
     text-align: left;
@@ -202,6 +202,12 @@ h2{
     color: #FF8B00;
     position: relative;
     z-index: 1;
+    transition: 1s;
+    cursor: pointer;
+}
+.icon span:hover{
+    transform: translateX(100px);
+    transform-origin: left;
 }
 .icon span::after{
     content: "";
@@ -293,4 +299,4 @@ h2{
 p{
     color: #939393;
 }
-/* list-style-type: symbols(&#x2713); */
+
