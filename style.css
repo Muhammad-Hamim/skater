@@ -384,7 +384,6 @@ p {
 /* about-section-end */
 /* out-team-section-start */
 .out-team-section {
-    
     padding-bottom: 250px;
 }
 .section-title{
@@ -456,6 +455,7 @@ p {
     padding: 50px 0;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 250px;
 }
 .pricing{
     height: 560px;
@@ -514,4 +514,30 @@ p {
     background-color: #a35a00;
 }
 /* pricing-section-end */
-
+/* questions-section-style-start */
+.question-container{
+    padding-bottom: 250px;
+}
+.question-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.question{
+    width: 540px;
+    padding: 27px 0;
+}
+.question-title{
+    text-transform: uppercase;
+    color: #FF8B00;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.question-answer{
+    font-size: 16px;
+    line-height: 30px;
+}
+/* question-section-style-end */
