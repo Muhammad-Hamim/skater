@@ -700,13 +700,14 @@ p {
 .contact-input input[type="submit"]{
     background-color: #FF8B00;
     padding: 15px 40px;
+    border: 2px solid #FF8B00;
     font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 .contact-input input[type="submit"]:hover{
-    background-color: #a35a00;
+    background-color: #333333;
 }
 .contact-content{
     width: 350px;
