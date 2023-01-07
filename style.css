@@ -499,6 +499,7 @@ p {
     padding: 12px 26px;
     background-color: #b8b8b8;
     color: #222222;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
 }
