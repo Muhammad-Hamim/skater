@@ -17,6 +17,7 @@
 }
 
 body {
+    background-color: #222222;
     max-width: 100vw;
     min-height: 100vh;
 }
@@ -25,6 +26,7 @@ body {
 .container {
     max-width: 1140px;
     margin: 0 auto;
+
 }
 
 /* container */
@@ -382,7 +384,7 @@ p {
 /* about-section-end */
 /* out-team-section-start */
 .out-team-section {
-    background-color: #222222;
+    
     padding-bottom: 250px;
 }
 .section-title{
@@ -395,7 +397,7 @@ p {
     font-size: 16px;
     line-height: 28px;
     color: #939393;
-    width: 500px;
+    width: 580px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 30px;
@@ -448,4 +450,68 @@ p {
 .our-team-icon > a > i:hover{
     color: #FF8B00;
 }
+/* our-team-section-end */
+/* pricing-section-start */
+.pricing-container{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.pricing{
+    height: 560px;
+    width: 350px;
+    overflow: hidden;
+    background-color: #333333;
+    padding: 34px 48px 45px 32px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 0px #f5f5f56b;
+    transition: 0.2s;
+}
+.pricing:hover{
+    transform: scale(1.1);
+    transform: translateY(-20px);
+}
+.pricing-title{
+    text-align: center;
+}
+.pricing-header{
+    text-align: center;
+}
+.pricing-text{
+    padding: 46px 0;
+}
+.pricing-text-icon{
+    display: flex;
+    padding: 10px;
+}
+.pricing-text-icon > p{
+    font-size:16px;
+    text-align: left;
+}
+.pricing-icon > i{
+    margin-right: 10px;
+    color: #53ad42;
+}
+.pricing-btn{
+    text-align: center;
+}
+.pricing-btn button{
+    padding: 12px 26px;
+    background-color: #b8b8b8;
+    color: #222222;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pricing-btn button:hover{
+    background-color: #838383;
+    color: white;
+}
+.pricing-btn2 button{
+    background-color: #FF8B00;
+    color: white;
+}
+.pricing-btn2 button:hover{
+    background-color: #a35a00;
+}
+/* pricing-section-end */
 
