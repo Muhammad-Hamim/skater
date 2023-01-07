@@ -3,6 +3,10 @@
 
 /* font-family: 'Rubik', sans-serif; */
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* font-family: 'Pacifico', cursive; */
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* font-family: 'Oswald', sans-serif; */
@@ -502,6 +506,7 @@ p {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.2s;
 }
 .pricing-btn button:hover{
     background-color: #838383;
@@ -542,3 +547,43 @@ p {
     line-height: 30px;
 }
 /* question-section-style-end */
+/* testimonial-section-style-start */
+.testimonial-section{
+    padding-bottom: 230px;
+}
+.testimonial-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonial{
+    width: 375px;
+}
+.testimonial-img{
+    text-align: center;
+    padding: 40px 0;
+}
+.testimonial-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.testimonial-img h3{
+    color: black;
+    margin-top: 10px;
+}
+.testimonial-text{
+    width: 330px;
+    padding: 30px 30px;
+    background-color: #333333;
+    text-align: center;
+    
+}
+.testimonial-text > p{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 18px;
+}
+/* testimonial-section-style-end */
+/* blog-section-style-start */
