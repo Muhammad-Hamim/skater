@@ -739,3 +739,106 @@ p {
 .contact-content button:hover{
     background-color: transparent;
 }
+/* contact-section-style-end *
+/* footer-section-style-start */
+.footer-section{
+    background-color: #333333;
+    padding: 130px 0;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 0px 100px 0px;
+    border-bottom: 1px solid #9393937a;
+}
+.footer-about{
+    width: 380px;
+    padding:0 30px;
+}
+.footer-container h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: oswald, sans-serif;
+    margin-bottom: 24px;
+}
+.footer-about >p{
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+}
+
+.footer-feature{
+    width: 190px;
+    padding: 0 15px;
+}
+.footer-feature>ul{
+    list-style: none;
+}
+.footer-feature ul>li >a{
+    text-decoration: none;
+    line-height:34px;
+    color: #939393;
+    transition: 0.3s;
+
+}
+.footer-feature ul>li >a:hover{
+    color: white;
+}
+.footer-contact-container{
+    width: 380px;
+    margin-left: auto;
+}
+.footer-input{
+    display: flex;
+    margin-bottom: 24px;
+}
+.footer-input input{
+    border: none;
+    padding:6px 20px;
+    background-color: transparent;
+    outline: none;
+}
+.footer-input input[type="email"]{
+    border: 1px solid #ffffff4d;
+    border-radius: 5px 0px 0px 5px;
+    width: 250px;
+}
+.footer-input input[type="submit"]{
+    background-color: #FF8B00;
+    padding: 22px 20px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.footer-input input[type="submit"]:hover{
+    background: #a35a00;
+}
+.footer-icons a i{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px;
+    color: #939393;
+    transition: 0.3s;
+}
+.footer-icons a i:hover{
+    color: white;
+}
+.footer{
+    text-align: center;
+    padding: 50px;
+    font-size: 13px;
+}
+.footer>p{
+    color: white;
+}
+.footer>p>span{
+    color: #939393;
+    font-weight: 500;
+    cursor: pointer;
+    transform-origin: 0.3s;
+}
+.footer>p>span:hover{
+    color: white;
+}
